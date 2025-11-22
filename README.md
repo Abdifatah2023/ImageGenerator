@@ -9,18 +9,16 @@ Users can enter a text prompt, and the app generates a high-quality AI image dis
 git clone https://github.com/Abdifatah2023/ImageGenerator.git
 
 2. Create and activate a virtual environment
-python -m venv venv
-source venv/bin/activate      # Mac/Linux
-venv\Scripts\activate         # Windows
+   python -m venv venv
+  source venv/bin/activate      # Mac/Linux
+  venv\Scripts\activate         # Windows
 
-3. Install dependencies
-pip install -r requirements.txt
+4. Install dependencies
+   pip install -r requirements.txt
 
-4. Create a .env file
-
-Inside the root folder:
-
-OPENAI_API_KEY=your_api_key_here
+6. Create a .env file
+   Inside the root folder:
+   OPENAI_API_KEY=your_api_key_here
 
 **Running the App**
 
@@ -30,3 +28,4 @@ gradio gradio_ui.py
 
 
 Gradio will open in your browser, allowing you to type prompts and generate AI images.
+
